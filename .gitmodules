@@ -5,3 +5,102 @@
 [submodule "3rdparty/PrefixTickLabels"]
 	path = 3rdparty/PrefixTickLabels
 	url = https://github.com/koenpoppe/PrefixTickLabels
+[submodule "3rdparty/threadweaver"]
+	path = 3rdparty/threadweaver
+	url = https://invent.kde.org/frameworks/threadweaver.git
+[submodule "3rdparty/kconfigwidgets"]
+	path = 3rdparty/kconfigwidgets
+	url = https://invent.kde.org/frameworks/kconfigwidgets.git
+[submodule "3rdparty/kcoreaddons"]
+	path = 3rdparty/kcoreaddons
+	url = https://invent.kde.org/frameworks/kcoreaddons.git
+[submodule "3rdparty/kitemviews"]
+	path = 3rdparty/kitemviews
+	url = https://invent.kde.org/frameworks/kitemviews.git
+[submodule "3rdparty/kitemmodels"]
+	path = 3rdparty/kitemmodels
+	url = https://invent.kde.org/frameworks/kitemmodels.git
+[submodule "3rdparty/kio"]
+	path = 3rdparty/kio
+	url = https://invent.kde.org/frameworks/kio.git
+[submodule "3rdparty/solid"]
+	path = 3rdparty/solid
+	url = https://invent.kde.org/frameworks/solid.git
+[submodule "3rdparty/kwindowsystem"]
+	path = 3rdparty/kwindowsystem
+	url = https://invent.kde.org/frameworks/kwindowsystem.git
+[submodule "3rdparty/knotifications"]
+	path = 3rdparty/knotifications
+	url = https://invent.kde.org/frameworks/knotifications.git
+[submodule "3rdparty/kiconthemes"]
+	path = 3rdparty/kiconthemes
+	url = https://invent.kde.org/frameworks/kiconthemes.git
+[submodule "3rdparty/kparts"]
+	path = 3rdparty/kparts
+	url = https://invent.kde.org/frameworks/kparts.git
+[submodule "3rdparty/ki18n"]
+	path = 3rdparty/ki18n
+	url = https://invent.kde.org/frameworks/ki18n.git
+[submodule "3rdparty/karchive"]
+	path = 3rdparty/karchive
+	url = https://invent.kde.org/frameworks/karchive.git
+[submodule "3rdparty/syntax-highlighting"]
+	path = 3rdparty/syntax-highlighting
+	url = https://invent.kde.org/frameworks/syntax-highlighting.git
+[submodule "3rdparty/extra-cmake-modules"]
+	path = 3rdparty/extra-cmake-modules
+	url = https://invent.kde.org/frameworks/extra-cmake-modules.git
+[submodule "3rdparty/KDDockWidgets"]
+	path = 3rdparty/KDDockWidgets
+	url = https://github.com/KDAB/KDDockWidgets.git
+[submodule "3rdparty/kcodecs"]
+	path = 3rdparty/kcodecs
+	url = https://invent.kde.org/frameworks/kcodecs.git
+[submodule "3rdparty/kconfig"]
+	path = 3rdparty/kconfig
+	url = https://invent.kde.org/frameworks/kconfig.git
+[submodule "3rdparty/kguiaddons"]
+	path = 3rdparty/kguiaddons
+	url = https://invent.kde.org/frameworks/kguiaddons.git
+[submodule "3rdparty/kwidgetsaddons"]
+	path = 3rdparty/kwidgetsaddons
+	url = https://invent.kde.org/frameworks/kwidgetsaddons.git
+[submodule "3rdparty/kcolorscheme"]
+	path = 3rdparty/kcolorscheme
+	url = https://invent.kde.org/frameworks/kcolorscheme.git
+[submodule "3rdparty/kxmlgui"]
+	path = 3rdparty/kxmlgui
+	url = https://invent.kde.org/frameworks/kxmlgui.git
+[submodule "3rdparty/plasma-wayland-protocols"]
+	path = 3rdparty/plasma-wayland-protocols
+	url = https://invent.kde.org/libraries/plasma-wayland-protocols.git
+[submodule "3rdparty/kglobalaccel"]
+	path = 3rdparty/kglobalaccel
+	url = https://invent.kde.org/frameworks/kglobalaccel.git
+[submodule "3rdparty/kservice"]
+	path = 3rdparty/kservice
+	url = https://invent.kde.org/frameworks/kservice.git
+[submodule "3rdparty/kcrash"]
+	path = 3rdparty/kcrash
+	url = https://invent.kde.org/frameworks/kcrash.git
+[submodule "3rdparty/kbookmarks"]
+	path = 3rdparty/kbookmarks
+	url = https://invent.kde.org/frameworks/kbookmarks.git
+[submodule "3rdparty/kcompletion"]
+	path = 3rdparty/kcompletion
+	url = https://invent.kde.org/frameworks/kcompletion.git
+[submodule "3rdparty/kjobwidgets"]
+	path = 3rdparty/kjobwidgets
+	url = https://invent.kde.org/frameworks/kjobwidgets.git
+[submodule "3rdparty/kdbusaddons"]
+	path = 3rdparty/kdbusaddons
+	url = https://invent.kde.org/frameworks/kdbusaddons.git
+[submodule "3rdparty/kauth"]
+	path = 3rdparty/kauth
+	url = https://invent.kde.org/frameworks/kauth.git
+[submodule "3rdparty/elfutils"]
+	path = 3rdparty/elfutils
+	url = git://sourceware.org/git/elfutils.git
+[submodule "3rdparty/cpuburn"]
+	path = 3rdparty/cpuburn
+	url = https://github.com/iamsergio/cpuburn.git

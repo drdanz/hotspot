@@ -171,7 +171,7 @@ add_subdirectory(3rdparty)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 add_subdirectory(src)
 
-if(NOT APPIMAGE_BUILD)
+if(NOT APPIMAGE_BUILD AND BUILD_TESTING)
     add_subdirectory(tests)
 endif()
 

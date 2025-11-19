@@ -9,13 +9,24 @@
       "binaryDir": "${sourceDir}/build-${presetName}",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "BUILD_TESTING" : "ON"
       }
     },
     {
       "name": "qt6",
+      "binaryDir": "${sourceDir}/build-${presetName}",
       "cacheVariables": {
         "QT6_BUILD": "ON"
+      }
+    },
+    {
+      "name": "release6",
+      "binaryDir": "${sourceDir}/build-${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "QT6_BUILD": "ON",
+        "BUILD_TESTING" : "OFF"
       }
     },
     {
