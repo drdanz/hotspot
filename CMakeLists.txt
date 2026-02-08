@@ -1,4 +1,13 @@
 cmake_minimum_required(VERSION 3.16)
+
+# Set up vcpkg toolchain from submodule (must be before project())
+if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
+    set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        CACHE STRING "Vcpkg toolchain file")
+endif()
+
+set(VCPKG_TARGET_TRIPLET "x64-linux-dynamic" CACHE STRING "")
+
 project(
     hotspot
     VERSION 1.6.0
