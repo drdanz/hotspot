@@ -1,12 +1,13 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.19)
 
-# Set up vcpkg toolchain from submodule (must be before project())
-if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
-    set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        CACHE STRING "Vcpkg toolchain file")
-endif()
+set(CMAKE_MODULE_PATH
+    ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/perfparser/cmake/
+    ${CMAKE_CURRENT_SOURCE_DIR}/cmake/
+    ${CMAKE_MODULE_PATH}
+)
 
 set(VCPKG_TARGET_TRIPLET "x64-linux-dynamic" CACHE STRING "")
+set(CMAKE_PROJECT_hotspot_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}/cmake/vcpkg-bootstrap.cmake")
 
 project(
     hotspot
@@ -14,9 +15,6 @@ project(
     LANGUAGES CXX C
 )
 
-set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/perfparser/cmake/ ${CMAKE_CURRENT_SOURCE_DIR}/cmake/
-                      ${CMAKE_MODULE_PATH}
-)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
